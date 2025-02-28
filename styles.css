@@ -140,5 +140,16 @@ input[type='email']:valid + .tick, input[type='telephone']:valid + .tick{
     float: left;
     margin: 10px;
 } 
-
+@media screen and (max-width: 500px){
+    input[type="email"], input[type='telephone']{
+        width: 100%;
+    }
+    select{
+        width: 100%;
+    }
+    input[type="submit"]{
+        width: 100%;
+    }
+    
+}
 
